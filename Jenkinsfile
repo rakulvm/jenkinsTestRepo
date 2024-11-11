@@ -9,7 +9,7 @@ pipeline{
 	}
 	 stage("Added new Stage"){
                 steps {
-                        sh 'echo "Jenkins pushed polling changes!"'
+                        sh 'echo "Pushed polling changes!"'
                 }
         }
 
