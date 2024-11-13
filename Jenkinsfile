@@ -4,7 +4,7 @@ pipeline{
 	stages{
 	stage("Print Jenkins Stage"){
 		steps {
-			sh 'echo "Jenkins changes ran Successfully!"'
+			sh 'echo "The new jenkins changes ran Successfully!"'
 		}
 	}
 	 stage("Added new Stage"){
